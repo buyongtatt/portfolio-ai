@@ -34,9 +34,8 @@ import { Tooltip } from "react-tooltip";
 
 // Import ThreeBackground and AIChatbot with SSR disabled
 const ThreeBackground = dynamic(
-  () => (
-    import("./ThreeBackground/ThreeBackground"),
-  ),
+  () => import("./ThreeBackground/ThreeBackground"),
+
   {
     ssr: false,
   }
