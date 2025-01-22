@@ -314,7 +314,7 @@ const Layout = ({ children }: LayoutProps) => {
             </motion.h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {Object.entries(skills).map(([category, items], index) => (
+              {Object.entries(skills).map(([category, items]) => (
                 <motion.div
                   key={category}
                   variants={fadeInUp}
@@ -545,7 +545,7 @@ const Layout = ({ children }: LayoutProps) => {
 
             <motion.div className="mt-12 text-center" variants={fadeInUp}>
               <p className="text-gray-400 max-w-2xl mx-auto">
-                Feel free to reach out! I'm always open to discussing new
+                Feel free to reach out! I&apos;m always open to discussing new
                 projects, creative ideas, or opportunities to be part of your
                 visions.
               </p>
